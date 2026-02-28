@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c1901a34d4d5ba4d991dda56472cc2c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c1901a34d4d5ba4d991dda56472cc2c3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c1901a34d4d5ba4d991dda56472cc2c3 = L.map(
+                "map_c1901a34d4d5ba4d991dda56472cc2c3",
+                {
+                    center: [26.8862, 79.2094],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b84b4e7febbb141a32dad08c6b6c4c44 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b84b4e7febbb141a32dad08c6b6c4c44.addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+            var marker_b56a313666ef81410a05c82d6aff7bf5 = L.marker(
+                [28.6139, 77.209],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_8c60f7a5374f60a6db4fb9c5485c8f86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_799b3057f0c3bc8661f68d4bb659c869 = $(`<div id="html_799b3057f0c3bc8661f68d4bb659c869" style="width: 100.0%; height: 100.0%;">Delhi</div>`)[0];
+                popup_8c60f7a5374f60a6db4fb9c5485c8f86.setContent(html_799b3057f0c3bc8661f68d4bb659c869);
+            
+        
+
+        marker_b56a313666ef81410a05c82d6aff7bf5.bindPopup(popup_8c60f7a5374f60a6db4fb9c5485c8f86)
+        ;
+
+        
+    
+    
+            var marker_177f8fa88eb6dc8200fc30e1d788f8b2 = L.marker(
+                [26.9124, 75.7873],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_24610812e2140e58b0389c3a42ac6db1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f28b590c6dad7fa8459859cd9ecf38c = $(`<div id="html_6f28b590c6dad7fa8459859cd9ecf38c" style="width: 100.0%; height: 100.0%;">Jaipur</div>`)[0];
+                popup_24610812e2140e58b0389c3a42ac6db1.setContent(html_6f28b590c6dad7fa8459859cd9ecf38c);
+            
+        
+
+        marker_177f8fa88eb6dc8200fc30e1d788f8b2.bindPopup(popup_24610812e2140e58b0389c3a42ac6db1)
+        ;
+
+        
+    
+    
+            var marker_1b2a2d90b0116a81debb61f1a7b13526 = L.marker(
+                [27.1767, 78.0081],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_196fd00f1b5df1e8abc0f29ee0fcc4cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b1b0666d797d2bf339978f1ba7c3e44 = $(`<div id="html_1b1b0666d797d2bf339978f1ba7c3e44" style="width: 100.0%; height: 100.0%;">Agra</div>`)[0];
+                popup_196fd00f1b5df1e8abc0f29ee0fcc4cd.setContent(html_1b1b0666d797d2bf339978f1ba7c3e44);
+            
+        
+
+        marker_1b2a2d90b0116a81debb61f1a7b13526.bindPopup(popup_196fd00f1b5df1e8abc0f29ee0fcc4cd)
+        ;
+
+        
+    
+    
+            var marker_da3ebf2c713125682709af36e5fe3163 = L.marker(
+                [26.8467, 80.9462],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_a2c1a0fba32e060cbf42c6cbedda2496 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e689c00e9b002a7501d490f66b08be6d = $(`<div id="html_e689c00e9b002a7501d490f66b08be6d" style="width: 100.0%; height: 100.0%;">Lucknow</div>`)[0];
+                popup_a2c1a0fba32e060cbf42c6cbedda2496.setContent(html_e689c00e9b002a7501d490f66b08be6d);
+            
+        
+
+        marker_da3ebf2c713125682709af36e5fe3163.bindPopup(popup_a2c1a0fba32e060cbf42c6cbedda2496)
+        ;
+
+        
+    
+    
+            var marker_4cc9f07d7fa3e0ccc315c24eb1c2802f = L.marker(
+                [26.4499, 80.3319],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_5f73a73abe55e4db5a026889b53222ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a05dfcb3095ae89a3d8ead237d7a8b53 = $(`<div id="html_a05dfcb3095ae89a3d8ead237d7a8b53" style="width: 100.0%; height: 100.0%;">Kanpur</div>`)[0];
+                popup_5f73a73abe55e4db5a026889b53222ae.setContent(html_a05dfcb3095ae89a3d8ead237d7a8b53);
+            
+        
+
+        marker_4cc9f07d7fa3e0ccc315c24eb1c2802f.bindPopup(popup_5f73a73abe55e4db5a026889b53222ae)
+        ;
+
+        
+    
+    
+            var marker_3e67156553b98cbc0bcdba9ef49de1fd = L.marker(
+                [25.3176, 82.9739],
+                {
+}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+        var popup_811b0d1788ec5d11e70e9ab8d06b1878 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b1cca71c9bf2eee7671cf0ab8919673 = $(`<div id="html_9b1cca71c9bf2eee7671cf0ab8919673" style="width: 100.0%; height: 100.0%;">Varanasi</div>`)[0];
+                popup_811b0d1788ec5d11e70e9ab8d06b1878.setContent(html_9b1cca71c9bf2eee7671cf0ab8919673);
+            
+        
+
+        marker_3e67156553b98cbc0bcdba9ef49de1fd.bindPopup(popup_811b0d1788ec5d11e70e9ab8d06b1878)
+        ;
+
+        
+    
+    
+            var poly_line_1c178ce675ef60d2b0908f83c8f29677 = L.polyline(
+                [[28.6139, 77.209], [27.1767, 78.0081], [26.8467, 80.9462], [25.3176, 82.9739]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+            poly_line_1c178ce675ef60d2b0908f83c8f29677.bindTooltip(
+                `<div>
+                     Dijkstra Path
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a146a285450150b9abe12916f40a66d3 = L.polyline(
+                [[28.6139, 77.209], [27.1767, 78.0081], [26.8467, 80.9462], [25.3176, 82.9739]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_c1901a34d4d5ba4d991dda56472cc2c3);
+        
+    
+            poly_line_a146a285450150b9abe12916f40a66d3.bindTooltip(
+                `<div>
+                     A* Path
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
