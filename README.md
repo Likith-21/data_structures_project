@@ -79,7 +79,8 @@ Launch the interactive dashboard:
 streamlit run dashboard.py
 ```
 
-Then open your browser to `http://localhost:8501`
+The dashboard will automatically open in your browser, or manually visit:
+**http://localhost:8501**
 
 **Algorithm Demo Tab:**
 - Select start and destination cities
